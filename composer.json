@@ -1,0 +1,32 @@
+{
+    "name": "thetribe/doctrine-dbal-date-time-immutable",
+    "description": "DateTimeImmutable types for doctrine/dbal",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Vasseur",
+            "email": "jerome.vasseur@thetribe.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TheTribe\\DoctrineDBALDateTimeImmutable\\": "src/"
+        },
+        "files": [
+            "src/bootstrap.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheTribe\\DoctrineDBALDateTimeImmutable\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": " ^5.5 || ^7.0",
+        "doctrine/dbal": "^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
